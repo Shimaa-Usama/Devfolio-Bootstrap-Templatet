@@ -1,0 +1,325 @@
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+header
+{
+    background-image: url('../images/intro-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.header-content
+{
+    height: 100%;
+}
+.bg-blackalpha
+{
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 100%;
+
+}
+.font-size-brand
+{
+    font-size: 1.8rem;
+}
+.font-size-li
+{
+    font-size: 1.3rem;
+}
+.font-size-h1
+{
+    font-size: 5rem;
+}
+.bg-section
+{
+    background-color: #f5f5f5;
+}
+.shadow
+{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+
+}
+.font-size-p
+{
+    font-size: 1.1rem;
+color: #4e4e4e;
+}
+.font-size-about
+{
+    font-size: 2.2rem;
+}
+@media (min-width:0px) and (max-width:576px)
+{
+.bg-section
+
+{
+padding: 1.5rem !important;
+}
+
+}
+.font-size-services
+{
+    font-size: 3rem;
+}
+.line
+{
+background-color: #0078ff;
+width: 45px;
+height: 5px;
+margin: auto;
+margin-bottom: 2rem;
+
+}
+.font-size-h4
+{
+    font-size: 1.8rem;
+}
+.border
+{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    box-shadow: 0 0 0 10px #0078ff;
+    border-radius: 50%;
+    font-size: 3rem;
+    transition: all .8s;
+}
+.rounded-3
+{
+   border-radius: 1.3rem; 
+}
+.divpadding
+{
+padding: 2.5rem 1.3rem;
+}
+.rounded-3:hover .border
+{
+    box-shadow: 0 0 0 10px #cde1f8;
+    background-color: #0078ff;
+    color: #fff;
+
+}
+.text-color
+{
+    color: #4e4e4e;
+}
+.font-size-span
+{
+    font-size: 1rem;
+}
+
+.card-img-top
+{
+    transition: all .7s;
+
+}
+.hover-scale:hover .card-img-top
+{
+    transform: scale(1.2);
+}
+@media (min-width:0px) and (max-width:576px)
+{
+.hover-scale
+
+{
+display: flex; 
+justify-content: center;
+ }
+
+}
+.border-icon
+{
+    
+    margin: auto;
+    box-shadow: 0 0 0 1px #007bff;
+    color: #007bff;
+    border-radius: 50%;
+    padding: 0.4rem;
+    font-size: 1.3rem;
+}
+.bg-bluealpha
+{
+    background-color: rgba(0, 140, 255,0.65);
+    height: 100%;
+}
+.bg-image
+{
+    
+    background-image: url('../images/overlay-bg.jpg');
+    background-size: cover;
+    height: 100%;
+}
+.font-size-h6
+{
+    font-size: 2.3rem;
+}
+.font-size-Xavi
+{
+    font-size: 1.3rem;
+    color: #f8f9fa;
+}
+.quote
+{
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    color: #007bff;
+    border-radius: 50%;
+    background-color: white;
+    /* padding: 0.4rem; */
+    font-size: 1.3rem;
+}
+.card-footer
+{
+    padding-right: 0rem;
+}
+.btn-rounded
+{
+    border-radius: 3rem;
+}
+.form
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+    line-height: 200%;
+}
+.icon-color
+{
+    color: #007bff;
+
+}
+.icon-border
+{
+/* border: 3.6px solid #0078ff; */
+border-radius: 50%;
+width: 100px;
+height: 100px;
+box-shadow: 0 0 0 4px #0078ff;
+color: #000;
+transition: all 1s;
+/* font-size: 1.4rem; */
+}
+.icon-border:hover
+{
+
+    box-shadow: 0 0 0 4px #cde1f8;
+    background-color: #0078ff;
+    color: #fff;
+
+}
+.card-footer {
+    padding: 0rem;
+padding-left: 1rem !important;
+padding-top: .3rem !important;
+
+}
+.card-title-hover
+{
+    color: #000 ;
+    transition: all .2s;
+}
+.card-title-hover:hover
+{
+color: #0078ff !important;
+}
+.subtitle::after
+{
+    content: "";
+    border-right: 3px solid white;
+    animation-name: type-writer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes type-writer
+{
+    0%{
+        content: "";
+    }
+    5%{
+        content: "C";
+
+    }
+    10%{
+        content: "CE";
+
+    }
+    15%{
+        content: "CEO";
+
+    }
+    20%{
+        content: "CEO D";
+
+    }
+    25%{
+        content: "CEO De ";
+
+    }
+    30%
+    {
+        content: "CEO Dev";
+    }
+    35%
+    {
+        content: "CEO Devf";
+    }
+    40%
+    {
+        content: "CEO Devfo";
+    }
+    45%
+    {
+        content: "CEO Devfol";
+    }
+    50%
+    {
+        content: "CEO Devfoli";
+    }
+    55%
+    {
+        content: "CEO Devefolio";
+    }
+    60%
+    {
+        content: "CEO Devfoli";
+    }
+    65%
+    {
+        content: "CEO Devfol";
+    }
+    68%
+    {
+        content: "CEO Devo";
+    }
+    70%
+    {
+        content: "CEO Dev";
+    }
+    73%
+    {
+        content: "CEO De";
+    }
+    75%
+    {
+        content: "CEO D";
+    }
+    80%
+    {
+        content: "CEO ";
+    }
+    85%
+    {
+        content: "CE";
+    }
+    90%
+    {
+        content: "C";
+    }
+    100%
+    {
+        content: "";
+    }
+}
